@@ -23,3 +23,9 @@ for example. This exact action can also be achieved by
 
     docker exec -e CMAKE="-DCMAKE_BUILD_TYPE=RelWithDebInfo -DUSE_MAINTAINER_MODE=Off" -it arangodb-static /scripts/build.fish -j12
 
+
+PLEASE NOTE:
+
+For now, you have to use the branch feature/musl to compile, until
+the (small) changes in there have been merged back to devel and the
+other branches.
